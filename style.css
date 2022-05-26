@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(images/snow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 300px;
+}
+
+/* ////////////////////////////   style for navsec ////////////////////////////////////////// */
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   /* width: 85%; */
+   padding: 30px 50px;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 700;
+}
+.navbar ul li a:hover{
+    color: #FCB712;
+    /* color: gold; */
+}
+
+/* //////////////////////////////// style for left-sec ////////////////////////////////////// */
+
+.left-sec{
+    /* background-image: url(https://source.unsplash.com/user/erondu/1600x900); */
+    width: 45%;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+.left-sec h1{
+    font-size: 3.7rem;
+}
+.left-sec p{
+    font-size: 1.1rem;
+}
+.left-sec .spa{
+    color: gold;
+}
+.left-sec .sub{
+    color: white;
+    border-radius: 35%;
+    padding:10px 20px;
+    background-color: #45A102;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+.left-sec .sub:hover{
+    color: #45A102;
+    border-radius: 35%;
+    padding:10px 20px;
+    background-color:white;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+.left-sec .sub1{
+    color: white;
+    border-radius: 35%;
+    padding:10px 20px;
+    background-color: #017ABF;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+.left-sec .sub1:hover{
+    color: #017ABF;
+    border-radius: 35%;
+    padding:10px 20px;
+    background-color:white ;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+.left-sec p {
+    color: white;
+    font-weight: 700;
+}
+
+/* ////////////////////////////////  style for page 2 ////////////////////////////// */
+.sec-2{
+    margin-top: 320px;
+}
+.sec-2 .sub1{
+    color: white;
+    border-radius: 35%;
+    padding:10px 20px;
+    background-color: #017ABF;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+.sec-2 .sub1:hover{
+    color:  #017ABF;
+    border-radius: 35%;
+    padding:10px 20px;
+    background-color:white;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+.sec-2 h1{
+    font-size: 3rem;
+}
+.sec-2 img{
+    margin-top: 50px;
+}
+.sec-2 .last{
+    color: #017ABF;
+}
+
+/* ////////////////////////////////  style for page 3 ////////////////////////////// */
+
+.second-section .last{
+    font-weight: 400;
+}
+.second-section .cel{
+    font-weight: 500;
+}
+.second-section .left-tab p{
+    font-size: 2.8rem;
+}  
+.second-section .left-tab h5{
+    font-size: 1rem;
+    color: darkgray;
+}
+.second-section .right-side{
+    margin-top: 50px;
+    background: linear-gradient(
+        to right,
+        white 50%,
+        #FCB82E 50%
+    );
+    height: 400px;
+    
+    
+}
+
+/*  ////////////////////////////////  style for fourth page ///////////////////////////////  */
+
+.fourth-sec{
+    margin-top: 100px;
+    background:#017ABF;
+}
+.upp-sec{
+    font-size: 3.1rem;
+    /* font-weight: 300; */
+    color: #FCB82E;
+}
+
+
+/* //////////////////////////////  style for fifth page ////////////////////////////// */
+
+.fifth-sec{
+    margin-top: 150px;
+}
+.sec-5{
+    margin-top: 50px;
+    height: 500px;
+    background: #9CCC3C;
+}
+.fifth-sec .bottom-sec{
+    mix-blend-mode: screen;
+}
+.fifth-sec .mid-sec p{
+    font-size: 3.2rem;
+    color: 
+    #48ACDF;
+}
+.fifth-sec .bottom-sec input{
+    margin-left: 10px;
+    color: white;
+    border-radius: 10%;
+    padding:10px 120px;
+    background-color:#FFBE00;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+.fifth-sec .bottom-sec p{
+    /* width: 90%;s */
+    font-size: 1.1rem;
+    color: aliceblue;
+    align-items: flex-end;
+}
+.fifth-sec h1{
+    color: white;
+    margin-top: 70px;
+    font-size: 1.8rem;
+}
+.fifth-sec img{
+    /* background: #48ACDF; */
+}
+
+
+/*  /////////////////////  style for sixth sec ////////////////////////// */
+.sixth-sec{
+    margin-top: 100px;
+}
+.sixth-sec p{
+    font-size: 3.7rem;
+}
+.sixth-sec .corp{
+    color: #48ACDF;
+}
+.sixth-sec .first-row{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.sixth-sec .second-row{
+    margin-left: 200px;
+}
+
+
+/* //////////////////////////////// style for footer-sec ////////////////////// */
+
+.footer-sec{
+    margin-top: 100px;
+    background-color:#212121;
+    color: white;
+}
+.footer-sec .f-section{
+    padding-top: 50px;
+}
+.footer-sec .footer h1{
+    font-size: 1.1rem;
+}
+.footer-sec .footer h2{
+    color: #FCB82E;
+    font-size: 1.1rem;
+}
+.footer-sec .last-sec{
+    background-color: black;
+}
+.footer-sec .last-sec p{
+    margin-top: 30px;
+    line-height: 40px;
+}
